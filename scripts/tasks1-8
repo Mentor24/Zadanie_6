@@ -1,0 +1,164 @@
+function task1(){
+    const name = 'Karol';
+    const age = 40;
+    const isOpen = true;
+    const stringBoolean = 'true';
+    const stringNumber = '100';
+}
+
+    function task2(){
+    console.log('Michał');
+    console.log("Hello Ania");
+    console.log(4);
+    console.log(false);
+}
+
+function task3(){
+    const name = 'Karol';
+    const age = 40;
+    const isOpen = true;
+    const stringBoolean = 'true';
+    const stringNumber = '100';
+    
+    console.log(name);
+    console.log(age);
+    console.log(isOpen);
+    console.log(stringBoolean);
+    console.log(stringNumber);
+}
+
+function task4(){
+    
+    console.log(2+2);
+    console.log('Michał ' + 'Kowalski');
+    console.log(2+2*2);
+}
+
+function task5(){
+
+  const a = 1+3
+
+  console.log('Wynik, ' + a)
+}
+
+function task6(){
+
+    let number = 3
+    number = number+4
+    number = number*2
+
+    console.log(number)
+}
+
+function task7a(){
+    return 2+2
+}
+
+function task7b(){
+    return 'Hello World'
+}
+
+function task7c(){
+    return true
+}
+
+function task7d(){
+    return 6%4
+}
+
+function task7e(){
+    return 3**4
+}
+
+function task7f(){
+    return 'Hello, ' + 'how are you?'
+}
+
+function task7g(){
+    return 5*60
+}
+
+function task7h(){
+    return 3*3600
+}
+
+function task7i(){
+    return 10*9/2
+}
+
+function task7j(){
+    return 200-10
+}
+
+function task8a(num1,num2){
+    return num1+num2
+}
+
+function task8b(randomText){
+    return randomText
+}
+
+function task8c(isTrue){
+    return isTrue
+}
+
+function task8d(num1,num2){
+    return num1%num2
+}
+
+function task8e(num1,num2){
+    return num1**num2
+}
+
+function task8f(string1,string2){
+    return string1 + string2
+}
+
+function task8g(minutes){
+    const hours= minutes*60
+    return hours
+}
+
+function task8h(hours){
+    console.log('hours - ' + hours)
+    const minutes= hours*60
+    console.log('minutes - ' + minutes)
+    const seconds= minutes*60
+    console.log('seconds - ' + seconds)
+    return seconds
+}
+
+function task8i(a,h){
+    const area = a*h*0.5
+    console.log(area)
+    return area
+}
+
+function task8j(years){
+    const days = years*365
+    console.log(days)
+    return days
+}
+
+function task8k(a){
+    console.log(a**a)
+    return a**a
+}
+
+function task8l(side1, side2){
+    const side3 = (side1-side2)-1
+    return side3
+}
+
+function task8m(name){
+    return 'Cześć, '+ name + '!'
+}
+    
+function task8n(birthDate){
+    return 2021-birthDate
+}
+
+function task8o(twoPointThrows, threePointThrows){
+    const points = twoPointThrows*2+threePointThrows*3
+    return points
+}
